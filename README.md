@@ -1,0 +1,62 @@
+# Website Clone : Fichaya Website
+
+Fichaya is a well designe website that we are going to attempt to clone
+
+## Task 1: Set Up The Project With Git
+
+- [ ] Create a forked copy of this project.
+- [ ] Add your team lead as collaborator on Github.
+- [ ] Clone your OWN version of the repository (Not Samuel's by mistake!).
+- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Push commits: git push origin `<firstName-lastName>`.
+ 
+Follow these steps for completing your project.
+
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (your  Repo). **Please don't merge your own pull request**
+- [ ] Add your team lead as a reviewer on the pull-request
+- [ ] Your team lead (@osammy :D) will count the project as complete by merging the branch back into master.
+
+## Task 2: Set up your preprocessor
+* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your team lead for help.
+* [ ] A less folder and less configurations have been creted for you, verify this by completing the below instructions.
+* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [ ] Once in your project's root folder, run the following command `less-watch-compiler`
+* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+
+## Task 3: Import LESS Files
+
+* [ ] Navigate to your `index.less` file. confirm the file is blank, and that the following files have been imported in this order.
+1. `variables.less`
+2. `mixins.less`
+3. `reset.less`
+4. `global.less`
+5. `navigation.less`
+6. `footer.less`
+7. `home-page.less`
+8. `services.less`;
+9. `associate.less`;
+10. `signin.less`;
+11. `signup.less`;
+12. `corporates`;
+13. `order`;
+
+
+## Task 4: Recreate Desktop Design
+* [ ] Review the [desktop design file](design-files). Then recreate the entire document with html and scc.
+
+
+
+## Task 5: Mobile Updates Needed
+* [ ] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
+* [ ] Review the [mobile design folder](design-files). You will see several design updates that need updating. 
+* [ ] Match the design file at `500px` as well as you can 
+
+## Stretch Goals: 
+* [ ] Navigate to the original webpage at [fichaya](fichaya.com) and add the animations as seen on the page
+* [ ] Introduce a form with inputs allowing users to select a vacation package and a submit button at the bottom of the page. Introduce inputs for name, email, phone number, and an area for them to leave special instructions. 
+* [ ] On he order page highligh boxes that are clicked as selected options.
+
+
+
