@@ -264,6 +264,10 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
-* {
+.sign-up-container {
   background-color: blue;
+  margin: 0 auto;
+}
+.inner-container {
+  display: flex;
 }
